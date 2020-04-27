@@ -7,21 +7,22 @@ GET http://localhost:3000/posts
 
 ###
 
-Get http://localhost:3000/posts/5e9ee3b8bb85cc63d0cf7e06
-
+GET http://localhost:3000/posts/5e9ee3b8bb85cc63d0cf7e06
+(Gives you a specific post)
 ###
 
 POST http://localhost:3000/posts Content-Type: application/json
 
 {
-  "name":
-  "img":
-  "movieImage":
-  "description":
+  "name":"movie_name",
+  "img": "image_link",
+  "movieImage":"image_file",
+  "description": "movie_description"
 
 }
 
 DELETE http://localhost:3000/posts/5e9ee3b8bb85cc63d0cf7e06
+(DELETES A PARTICULAR POST)
 
 PATCH http://localhost:3000/subscribers/5e9ee3b8bb85cc63d0cf7e06 Content-Type: application/json
 
