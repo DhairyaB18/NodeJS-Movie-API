@@ -24,7 +24,7 @@ POST http://localhost:3000/posts Content-Type: application/json
 DELETE http://localhost:3000/posts/5e9ee3b8bb85cc63d0cf7e06
 (DELETES A PARTICULAR POST)
 
-PATCH http://localhost:3000/subscribers/5e9ee3b8bb85cc63d0cf7e06 Content-Type: application/json
+PATCH http://localhost:3000/posts/5e9ee3b8bb85cc63d0cf7e06 Content-Type: application/json
 
 {
 "name": "Harry Potter"
