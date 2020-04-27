@@ -21,16 +21,16 @@ POST http://localhost:3000/posts Content-Type: application/json
 
 }
 
-### DELETE http://localhost:3000/posts/5e9ee3b8bb85cc63d0cf7e06
+DELETE http://localhost:3000/posts/5e9ee3b8bb85cc63d0cf7e06
 
-### PATCH http://localhost:3000/subscribers/5e9ee3b8bb85cc63d0cf7e06 Content-Type: application/json
+PATCH http://localhost:3000/subscribers/5e9ee3b8bb85cc63d0cf7e06 Content-Type: application/json
 
 {
 "name": "Harry Potter"
 }
 
 
-JSON FILE ADDED TO  MONGO DB
+### JSON FILE ADDED TO  MONGO DB
 
 [
   {"_id":"5e9ee3b8bb85cc63d0cf7e06","name":"Harry Potter and the Order of the Phoenix","description":"Harry Potter and Dumbledore's warning about the return of Lord Voldemort is not heeded by the wizard authorities who, in turn, look to undermine Dumbledore's authority at Hogwarts and discredit Harry.","img":"https://bit.ly/2IcnSwz","movieImage":"uploads\\harrypotter.jpg","__v":0},
